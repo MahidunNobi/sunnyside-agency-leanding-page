@@ -1,4 +1,14 @@
 import React from 'react'
+import firstImg from "../assets/images/desktop/image-transform.jpg"
+import SecondImg from "../assets/images/mobile/image-transform.jpg"
+import thirdImg from "../assets/images/desktop/image-stand-out.jpg"
+import fourthImg from "../assets/images/mobile/image-stand-out.jpg"
+import fifthImg from "../assets/images/desktop/image-photography.jpg"
+import sixthImg from "../assets/images/mobile/image-photography.jpg"
+
+
+
+
 
 function SecondSection() {
   return (
@@ -7,8 +17,8 @@ function SecondSection() {
       <div className='w-full lg:flex lg:flex-row-reverse
       '>
           <div className='lg:w-1/2' >
-              <img className='lg:block hidden w-full' src="./src/assets/images/desktop/image-transform.jpg" alt="" />
-              <img className='lg:hidden block w-full' src="./src/assets/images/mobile/image-transform.jpg" alt="" />
+              <img className='lg:block hidden w-full' src={firstImg} alt="" />
+              <img className='lg:hidden block w-full' src= {SecondImg} alt="" />
           </div>
 
           <div className='lg:w-1/2 flex flex-col space-y-9 py-9 m-auto px-6 text-center items-center lg:text-left lg:px-24 lg:items-start'>            
@@ -29,8 +39,8 @@ function SecondSection() {
 
       <div className='w-full lg:flex'>
           <div className='lg:w-1/2' >
-              <img className='lg:block hidden w-full' src="./src/assets/images/desktop/image-stand-out.jpg" alt="" />
-              <img className='lg:hidden block w-full' src="./src/assets/images/mobile/image-stand-out.jpg" alt="" />
+              <img className='lg:block hidden w-full' src={thirdImg} alt="" />
+              <img className='lg:hidden block w-full' src= {fourthImg} alt="" />
           </div>
 
           <div className='lg:w-1/2 flex flex-col space-y-9 py-9 m-auto px-6 text-center lg:text-left lg:px-24 , lg:items-start items-center'>            
@@ -63,8 +73,8 @@ function SecondSection() {
               </div>
           </div>
           <div className='lg:w-1/2 relative' >
-              <img className='lg:block hidden w-full' src="./src/assets/images/desktop/image-photography.jpg" alt="" />
-              <img className='lg:hidden block w-full' src="./src/assets/images/mobile/image-photography.jpg" alt="" />
+              <img className='lg:block hidden w-full' src={fifthImg} alt="" />
+              <img className='lg:hidden block w-full' src={sixthImg} alt="" />
               <div className='absolute bottom-16 text-center lg:px-32 px-6'>
                 <h2 className=' font-fraunces text-4xl text-darkDesaturatedCyan font-bold mb-8'> Photography </h2>
                 <p className=' text-xl leading-8 text-darkDesaturatedCyan'>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.

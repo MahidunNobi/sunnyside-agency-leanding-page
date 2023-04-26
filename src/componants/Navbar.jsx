@@ -1,13 +1,14 @@
 import React from 'react'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBars} from '@fortawesome/free-solid-svg-icons'
+  import logo from "../assets/images/logo.svg"
 
 const Navbar = () => {
   return (
     <div id='navSection' className='py-4 '>
         <div className='container mx-auto flex items-center justify-between relative'> 
           <div className="logo pl-3">
-                  <img className='' src="./src/assets/images/logo.svg" alt="" />
+                  <img className='' src={logo} alt="" />
           </div>  
 
           <ul className='hidden md:flex md:text-white md:items-center md:space-x-8 md:relative md:w-auto w-2/3 absolute top-12 right-11 md:top-0 md:right-0 bg-white rounded-2xl px-6 py-4 md:bg-transparent md:px-0 md:py-0 text-black text-center md:text-right space-y-3 md:space-y-0'>
