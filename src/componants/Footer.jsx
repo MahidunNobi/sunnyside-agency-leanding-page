@@ -1,4 +1,9 @@
 import React from 'react'
+import logo from "../assets/images/logo.svg"
+import facebook from "../assets/images/icon-facebook.svg"
+import instagram from "../assets/images/icon-instagram.svg"
+import twitter from "../assets/images/icon-twitter.svg"
+import pinterest from "../assets/images/icon-pinterest.svg"
 
 const Footer = () => {
   return (
@@ -7,7 +12,7 @@ const Footer = () => {
 
       
           <div className="logo text-darkDesaturatedCyan w-52">
-            <img className=' w-full' src="./src/assets/images/logo.svg" alt="" />
+            <img className=' w-full' src= {logo} alt="" />
           </div>
 
           <div className="links text-darkDesaturatedCyan">
@@ -17,10 +22,10 @@ const Footer = () => {
           </div>
 
           <div className="social flex space-x-7">
-            <img className='cursor-pointer' src="./src/assets/images/icon-facebook.svg" alt="" />
-            <img className='cursor-pointer' src="./src/assets/images/icon-instagram.svg" alt="" />
-            <img className='cursor-pointer' src="./src/assets/images/icon-twitter.svg" alt="" />
-            <img className='cursor-pointer' src="./src/assets/images/icon-pinterest.svg" alt="" />
+            <img className='cursor-pointer' src={facebook} alt="" />
+            <img className='cursor-pointer' src= {instagram} alt="" />
+            <img className='cursor-pointer' src={twitter} alt="" />
+            <img className='cursor-pointer' src= {pinterest} alt="" />
           </div>
 
     </div>  

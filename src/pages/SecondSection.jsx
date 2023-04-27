@@ -6,6 +6,9 @@ import fourthImg from "../assets/images/mobile/image-stand-out.jpg"
 import fifthImg from "../assets/images/desktop/image-photography.jpg"
 import sixthImg from "../assets/images/mobile/image-photography.jpg"
 
+import seventhImg from "../assets/images/desktop/image-graphic-design.jpg"
+import eighthImg from "../assets/images/mobile/image-graphic-design.jpg"
+
 
 
 
@@ -64,8 +67,8 @@ function SecondSection() {
       
       <div className='w-full lg:flex '>
           <div className='lg:w-1/2 relative' >
-              <img className='lg:block hidden w-full' src="./src/assets/images/desktop/image-graphic-design.jpg" alt="" />
-              <img className='lg:hidden block w-full' src="./src/assets/images/mobile/image-graphic-design.jpg" alt="" />
+              <img className='lg:block hidden w-full' src={seventhImg} alt="" />
+              <img className='lg:hidden block w-full' src={eighthImg} alt="" />
               <div className='absolute bottom-16 text-center lg:px-32 px-6'>
                 <h2 className=' font-fraunces text-4xl text-darkDesaturatedCyan font-bold mb-8'> Graphic design </h2>
                 <p className=' text-xl leading-8 text-darkDesaturatedCyan'>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
